@@ -1,0 +1,144 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "energy_dataset",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "HouseID",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "HouseType",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Facing",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Region",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "hour",
+        "mostly": 0.85,
+        "type_list": [
+          "int64",
+          "float64",
+          "int32",
+          "float32",
+          "int16",
+          "float16"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "hour",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "hour",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "kWh",
+        "mostly": 0.85,
+        "type_list": [
+          "int64",
+          "float64",
+          "int32",
+          "float32",
+          "int16",
+          "float16"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "kWh",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "kWh",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "Duration",
+        "mostly": 0.85,
+        "type_list": [
+          "int64",
+          "float64",
+          "int32",
+          "float32",
+          "int16",
+          "float16"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "Duration",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "Duration",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.18.12"
+  }
+}

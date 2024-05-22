@@ -103,6 +103,36 @@ fluent_datasources:
       houses_madrid:
         type: dataframe
         batch_metadata: {}
+  houses_madrid_2_ds:
+    type: pandas
+    assets:
+      houses_madrid_2_ds_dataframe:
+        type: dataframe
+        batch_metadata: {}
+  houses_madrid_ds:
+    type: pandas
+    assets:
+      houses_madrid_ds_dataframe:
+        type: dataframe
+        batch_metadata: {}
+  energy_dataset_ds:
+    type: pandas
+    assets:
+      energy_dataset_ds_dataframe:
+        type: dataframe
+        batch_metadata: {}
+  melbourne_ds:
+    type: pandas
+    assets:
+      melbourne_ds_dataframe:
+        type: dataframe
+        batch_metadata: {}
+  data_quality_test_idealista_madrid_ds:
+    type: pandas
+    assets:
+      data_quality_test_idealista_madrid_ds_dataframe:
+        type: dataframe
+        batch_metadata: {}
 notebooks:
 include_rendered_content:
   globally: false
