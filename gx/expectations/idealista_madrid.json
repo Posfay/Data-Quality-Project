@@ -1,11 +1,45 @@
 {
   "data_asset_type": null,
-  "expectation_suite_name": "energy_dataset",
+  "expectation_suite_name": "idealista_madrid",
   "expectations": [
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "HouseID",
+        "column": "id",
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "id"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "id",
+        "max_value": 16,
+        "min_value": 4,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "id",
+        "mostly": 0.85,
+        "regex": "^[a-zA-Z0-9]+$"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "address",
         "mostly": 0.85
       },
       "meta": {}
@@ -13,7 +47,7 @@
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
-        "column": "HouseID",
+        "column": "address",
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
@@ -23,7 +57,7 @@
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "HouseType",
+        "column": "typology",
         "mostly": 0.85
       },
       "meta": {}
@@ -31,7 +65,7 @@
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
-        "column": "HouseType",
+        "column": "typology",
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
@@ -41,7 +75,7 @@
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "Facing",
+        "column": "advertiserProfessionalName",
         "mostly": 0.85
       },
       "meta": {}
@@ -49,7 +83,7 @@
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
-        "column": "Facing",
+        "column": "advertiserProfessionalName",
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
@@ -59,7 +93,7 @@
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "Region",
+        "column": "advertiserName",
         "mostly": 0.85
       },
       "meta": {}
@@ -67,7 +101,7 @@
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
-        "column": "Region",
+        "column": "advertiserName",
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
@@ -77,7 +111,7 @@
     {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
-        "column": "hour",
+        "column": "price",
         "mostly": 0.85,
         "type_list": [
           "int64",
@@ -93,7 +127,7 @@
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "hour",
+        "column": "price",
         "mostly": 0.85
       },
       "meta": {}
@@ -101,7 +135,7 @@
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
-        "column": "hour",
+        "column": "price",
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
@@ -111,9 +145,9 @@
     {
       "expectation_type": "expect_column_values_to_be_between",
       "kwargs": {
-        "column": "hour",
-        "max_value": 21.883586835301777,
-        "min_value": 1.1171049960263701,
+        "column": "price",
+        "max_value": 2845535.30310521,
+        "min_value": -264384.778515046,
         "mostly": 1
       },
       "meta": {}
@@ -121,7 +155,7 @@
     {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
-        "column": "kWh",
+        "column": "baths",
         "mostly": 0.85,
         "type_list": [
           "int64",
@@ -137,7 +171,7 @@
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "kWh",
+        "column": "baths",
         "mostly": 0.85
       },
       "meta": {}
@@ -145,7 +179,7 @@
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
-        "column": "kWh",
+        "column": "baths",
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
@@ -155,9 +189,9 @@
     {
       "expectation_type": "expect_column_values_to_be_between",
       "kwargs": {
-        "column": "kWh",
-        "max_value": 2.198795704002389,
-        "min_value": -0.47288152588208465,
+        "column": "baths",
+        "max_value": 5.340276606168758,
+        "min_value": 0.4608162900061057,
         "mostly": 1
       },
       "meta": {}
@@ -165,7 +199,7 @@
     {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
-        "column": "Duration",
+        "column": "rooms",
         "mostly": 0.85,
         "type_list": [
           "int64",
@@ -181,7 +215,7 @@
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "Duration",
+        "column": "rooms",
         "mostly": 0.85
       },
       "meta": {}
@@ -189,7 +223,7 @@
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
-        "column": "Duration",
+        "column": "rooms",
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
@@ -199,9 +233,53 @@
     {
       "expectation_type": "expect_column_values_to_be_between",
       "kwargs": {
-        "column": "Duration",
-        "max_value": 1335.0579238153146,
-        "min_value": 702.4009358441695,
+        "column": "rooms",
+        "max_value": 5.86625487319953,
+        "min_value": 1.0823790065818915,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "sqft",
+        "mostly": 0.85,
+        "type_list": [
+          "int64",
+          "float64",
+          "int32",
+          "float32",
+          "int16",
+          "float16"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "sqft",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "sqft",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "sqft",
+        "max_value": 504.8569903087079,
+        "min_value": -70.38048757646749,
         "mostly": 1
       },
       "meta": {}

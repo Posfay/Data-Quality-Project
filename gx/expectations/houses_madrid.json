@@ -6,7 +6,7 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "id",
-        "mostly": 0.85
+        "mostly": 1
       },
       "meta": {}
     },
@@ -21,9 +21,18 @@
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
         "column": "id",
-        "max_value": 15,
-        "min_value": 1,
+        "max_value": 16,
+        "min_value": 4,
         "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "id",
+        "mostly": 0.85,
+        "regex": "^[a-zA-Z0-9]+$"
       },
       "meta": {}
     },
@@ -31,6 +40,16 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "is_exact_address_hidden",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_exact_address_hidden",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -44,9 +63,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_floor_under",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "house_type_id",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "house_type_id",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -60,9 +99,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_renewal_needed",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "is_new_development",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_new_development",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -76,9 +135,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_central_heating",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "has_individual_heating",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_individual_heating",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -92,9 +171,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_ac",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "has_fitted_wardrobes",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_fitted_wardrobes",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -108,9 +207,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_lift",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "is_exterior",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_exterior",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -124,9 +243,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_garden",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "has_pool",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_pool",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -140,9 +279,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_terrace",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "has_balcony",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_balcony",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -156,9 +315,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_storage_room",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "is_accessible",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_accessible",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -172,9 +351,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_green_zones",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "energy_certificate",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "energy_certificate",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -188,9 +387,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "has_parking",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "is_parking_included_in_price",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_parking_included_in_price",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -204,9 +423,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_orientation_north",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "is_orientation_west",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_orientation_west",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -220,9 +459,29 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_orientation_south",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "is_orientation_east",
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "is_orientation_east",
+        "max_value": 15,
+        "min_value": 1,
         "mostly": 0.85
       },
       "meta": {}
@@ -236,6 +495,16 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "neighborhood",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "district",
@@ -244,6 +513,16 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "district",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "sq_mt_built",
@@ -274,6 +553,16 @@
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "sq_mt_built",
+        "max_value": 348.1936890704993,
+        "min_value": -54.35190520669471,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -312,6 +601,16 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "sq_mt_useful",
+        "max_value": 235.84697990176028,
+        "min_value": -28.930596819601774,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "n_rooms",
@@ -342,6 +641,16 @@
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "n_rooms",
+        "max_value": 5.2714945113044696,
+        "min_value": 0.7400039708958799,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -380,6 +689,16 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "n_bathrooms",
+        "max_value": 4.202174723749564,
+        "min_value": -0.01879996539551776,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "n_floors",
@@ -410,6 +729,16 @@
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "n_floors",
+        "max_value": 4.490310523876678,
+        "min_value": 1.7671703390321598,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -448,6 +777,16 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "sq_mt_allotment",
+        "max_value": 612.920016989184,
+        "min_value": -129.53454212884884,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "rent_price",
@@ -478,6 +817,16 @@
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "rent_price",
+        "max_value": 1316503.966834595,
+        "min_value": -1434844.5826933016,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -516,6 +865,16 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "buy_price",
+        "max_value": 1826858.7522562582,
+        "min_value": -519387.4572511988,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "buy_price_by_area",
@@ -546,6 +905,16 @@
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "buy_price_by_area",
+        "max_value": 6883.152031167176,
+        "min_value": 1157.8957105309205,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -584,6 +953,16 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "built_year",
+        "max_value": 2074.1264582325557,
+        "min_value": 1865.9663417674444,
+        "mostly": 1
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "parking_price",
@@ -614,6 +993,16 @@
         "max_value": 15,
         "min_value": 1,
         "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "parking_price",
+        "max_value": 22699.449905744794,
+        "min_value": -17383.448869341115,
+        "mostly": 1
       },
       "meta": {}
     }

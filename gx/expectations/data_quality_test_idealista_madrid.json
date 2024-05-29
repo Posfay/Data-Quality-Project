@@ -6,7 +6,7 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "id",
-        "mostly": 0.9
+        "mostly": 1
       },
       "meta": {}
     },
@@ -21,9 +21,18 @@
       "expectation_type": "expect_column_value_lengths_to_be_between",
       "kwargs": {
         "column": "id",
-        "max_value": 15,
-        "min_value": 1,
-        "mostly": 0.9
+        "max_value": 16,
+        "min_value": 4,
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "id",
+        "mostly": 0.85,
+        "regex": "^[a-zA-Z0-9]+$"
       },
       "meta": {}
     },
@@ -31,7 +40,17 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "address",
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "address",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -39,7 +58,17 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "typology",
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "typology",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -47,7 +76,17 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "advertiserProfessionalName",
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "advertiserProfessionalName",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -55,7 +94,17 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "advertiserName",
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_value_lengths_to_be_between",
+      "kwargs": {
+        "column": "advertiserName",
+        "max_value": 15,
+        "min_value": 1,
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -63,7 +112,7 @@
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "price",
-        "mostly": 0.9,
+        "mostly": 0.85,
         "type_list": [
           "int64",
           "float64",
@@ -79,7 +128,7 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "price",
-        "mostly": 0.9
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -89,7 +138,17 @@
         "column": "price",
         "max_value": 15,
         "min_value": 1,
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "price",
+        "max_value": 2845535.30310521,
+        "min_value": -264384.778515046,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -97,7 +156,7 @@
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "baths",
-        "mostly": 0.9,
+        "mostly": 0.85,
         "type_list": [
           "int64",
           "float64",
@@ -113,7 +172,7 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "baths",
-        "mostly": 0.9
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -123,7 +182,17 @@
         "column": "baths",
         "max_value": 15,
         "min_value": 1,
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "baths",
+        "max_value": 5.340276606168758,
+        "min_value": 0.4608162900061057,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -131,7 +200,7 @@
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "rooms",
-        "mostly": 0.9,
+        "mostly": 0.85,
         "type_list": [
           "int64",
           "float64",
@@ -147,7 +216,7 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "rooms",
-        "mostly": 0.9
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -157,7 +226,17 @@
         "column": "rooms",
         "max_value": 15,
         "min_value": 1,
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "rooms",
+        "max_value": 5.86625487319953,
+        "min_value": 1.0823790065818915,
+        "mostly": 1
       },
       "meta": {}
     },
@@ -165,7 +244,7 @@
       "expectation_type": "expect_column_values_to_be_in_type_list",
       "kwargs": {
         "column": "sqft",
-        "mostly": 0.9,
+        "mostly": 0.85,
         "type_list": [
           "int64",
           "float64",
@@ -181,7 +260,7 @@
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "sqft",
-        "mostly": 0.9
+        "mostly": 0.85
       },
       "meta": {}
     },
@@ -191,7 +270,17 @@
         "column": "sqft",
         "max_value": 15,
         "min_value": 1,
-        "mostly": 0.9
+        "mostly": 0.85
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "sqft",
+        "max_value": 504.8569903087079,
+        "min_value": -70.38048757646749,
+        "mostly": 1
       },
       "meta": {}
     }
